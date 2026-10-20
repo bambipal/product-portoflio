@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhavya Pal — Product &amp; Program</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --accent: #3E5C76; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #F7F8FA; color: #1B1F24; font-family: 'Work Sans', system-ui, sans-serif; line-height: 1.55; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1, h2, h3 { font-family: 'Fraunces', serif; font-weight: 500; margin: 0; }
+  nav { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; padding: 20px clamp(24px, 6vw, 72px); background: rgba(247,248,250,0.92); backdrop-filter: blur(6px); border-bottom: 1px solid #E2E6EB; }
+  nav .brand { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; color: #1B1F24; text-decoration: none; }
+  nav .links { display: flex; gap: clamp(14px, 3vw, 28px); font-size: 14px; font-weight: 500; }
+  nav .links a { color: #4D5661; text-decoration: none; }
+  header.hero { padding: clamp(56px, 10vw, 110px) clamp(24px, 6vw, 72px) clamp(40px, 7vw, 72px); max-width: 900px; }
+  .kicker { margin: 0 0 16px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  h1.title { font-size: clamp(34px, 5.5vw, 56px); line-height: 1.1; color: #14181C; margin-bottom: 14px; }
+  .sub { margin: 0 0 28px; max-width: 560px; font-size: clamp(16px, 2vw, 18px); color: #4D5661; }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; font-size: 14px; font-weight: 500; }
+  .btn-dark { background: #1B1F24; color: #F7F8FA; }
+  .btn-outline { border: 1px solid #D4D9DF; color: #1B1F24; }
+  section { padding: clamp(36px, 6vw, 56px) clamp(24px, 6vw, 72px); border-top: 1px solid #E2E6EB; }
+  section h2 { font-size: 26px; margin-bottom: 24px; }
+  .about-grid { display: flex; flex-wrap: wrap; gap: clamp(28px, 6vw, 64px); }
+  .about-grid > div { flex: 1 1 360px; min-width: 0; }
+  .about-grid p { margin: 0 0 14px; color: #4D5661; max-width: 520px; }
+  .label { margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #8A93A0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { padding: 6px 13px; background: #EAEDF1; border-radius: 999px; font-size: 13px; color: #2D333B; }
+  .proj { padding: 26px 0; border-top: 1px solid #E8EBEF; }
+  .proj:first-child { border-top: none; }
+  .proj-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: baseline; margin-bottom: 10px; }
+  .proj-org { font-weight: 600; font-size: 18px; color: #14181C; }
+  .proj-meta { font-size: 13px; color: #8A93A0; }
+  .proj ul { margin: 0; padding-left: 18px; color: #4D5661; }
+  .proj li { margin-bottom: 6px; }
+  .metrics { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+  .metric { padding: 8px 14px; background: #EEF2F6; border-radius: 10px; font-size: 13px; color: #2D333B; font-weight: 500; }
+  .job { display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 16px 0; border-top: 1px solid #E8EBEF; }
+  .job:first-child { border-top: none; }
+  .job .org { flex: 0 0 220px; font-weight: 600; color: #14181C; }
+  .job .desc { flex: 1 1 400px; min-width: 0; color: #4D5661; }
+  .job .role { color: #8A93A0; }
+  footer { padding: 24px clamp(24px, 6vw, 72px) 40px; font-size: 13px; color: #8A93A0; border-top: 1px solid #E2E6EB; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#top" class="brand">Bhavya Pal</a>
+  <div class="links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <p class="kicker">Product · Program · Research</p>
+  <h1 class="title">Bhavya Pal</h1>
+  <p class="sub">Product and program work — research, benchmarking and execution.</p>
+  <div class="btn-row">
+    <a class="btn btn-dark" href="mailto:bhavyapal74@gmail.com">Get in touch</a>
+    <a class="btn btn-outline" href="https://www.linkedin.com/in/bhavya-pal-65338028b" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about-grid">
+    <div>
+      <h2>About</h2>
+      <p>I graduated with a degree in Economics from the University of Delhi. I currently work in Zupee's Founder's Office, where my work centers on owning problems end to end — research that becomes a recommendation, a process that gets built, a deliverable that ships on time across teams.</p>
+    </div>
+    <div>
+      <h3 class="label">Core skills</h3>
+      <div class="chips">
+        <span class="chip">End-to-end ownership</span>
+        <span class="chip">Competitive &amp; market research</span>
+        <span class="chip">Benchmarking frameworks</span>
+        <span class="chip">Cross-functional execution</span>
+        <span class="chip">Process design</span>
+        <span class="chip">Timeline &amp; deliverable tracking</span>
+        <span class="chip">Stakeholder communication</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="proj">
+    <div class="proj-top">
+      <div class="proj-org">Broadcast Feed revamp</div>
+      <div class="proj-meta">Zupee, Founder's Office</div>
+    </div>
+    <ul>
+      <li>Owned the end-to-end revamp of the Broadcast Feed feature — restructured content format and posting cadence.</li>
+      <li>Drove measurable gains in engagement and return visits.</li>
+    </ul>
+    <div class="metrics">
+      <span class="metric">+22% feed engagement</span>
+      <span class="metric">+12% 7-day return visits</span>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="proj-top">
+      <div class="proj-org">AI creator benchmarking framework</div>
+      <div class="proj-meta">Zupee, Founder's Office</div>
+    </div>
+    <ul>
+      <li>Built a benchmarking framework across 25+ AI creator accounts on Instagram and YouTube.</li>
+      <li>Converted growth, engagement rate and content-format data into recommendations for content strategy.</li>
+      <li>Ran competitive research on the generative AI landscape, tracking 40+ tools and synthesizing findings into structured insight briefs.</li>
+    </ul>
+    <div class="metrics">
+      <span class="metric">25+ accounts benchmarked</span>
+      <span class="metric">40+ tools tracked</span>
+      <span class="metric">6 insight briefs</span>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="proj-top">
+      <div class="proj-org">Field research program</div>
+      <div class="proj-meta">TERI (The Energy and Resources Institute)</div>
+    </div>
+    <ul>
+      <li>Designed and ran a structured data-collection process across 4 field locations.</li>
+      <li>Standardised Excel data-entry templates, improving accuracy.</li>
+      <li>Tracked deliverables and timelines across workstreams to keep the team on schedule; owned 3 sections of the final report.</li>
+    </ul>
+    <div class="metrics">
+      <span class="metric">150+ respondents</span>
+      <span class="metric">4 field locations</span>
+      <span class="metric">-15% data-entry errors</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="job">
+    <div class="org">Zupee, Founder's Office</div>
+    <div class="desc"><span class="role">Creative &amp; editorial intern.</span> Owns feature revamps, research and benchmarking work for the Founder's Office — see Projects above.</div>
+  </div>
+  <div class="job">
+    <div class="org">TERI</div>
+    <div class="desc"><span class="role">Intern.</span> Designed and ran a field research program; presented findings to a 10-member cross-functional team.</div>
+  </div>
+  <div class="job">
+    <div class="org">FEMEV</div>
+    <div class="desc"><span class="role">Media &amp; outreach intern.</span> Planned and executed 5 outreach programs end to end — logistics, mobilisation, coordination of 15 volunteers.</div>
+  </div>
+  <div class="job">
+    <div class="org">Optima, Entrepreneurship Cell</div>
+    <div class="desc"><span class="role">Head of Design.</span> Led an 8-person team; built a training process for 10 incoming members across 3 workshops.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Let's talk.</h2>
+  <div class="btn-row">
+    <a class="btn btn-dark" href="mailto:bhavyapal74@gmail.com">bhavyapal74@gmail.com</a>
+    <a class="btn btn-outline" href="https://www.linkedin.com/in/bhavya-pal-65338028b" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn-outline" href="./Bhavya_Pal_Resume_2.pdf" target="_blank" rel="noopener">Download résumé</a>
+  </div>
+</section>
+
+<footer>© 2026 Bhavya Pal</footer>
+
+</body>
+</html>
