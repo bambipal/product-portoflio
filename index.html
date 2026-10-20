@@ -18,6 +18,11 @@
   nav .brand { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; color: #1B1F24; text-decoration: none; }
   nav .links { display: flex; gap: clamp(14px, 3vw, 28px); font-size: 14px; font-weight: 500; }
   nav .links a { color: #4D5661; text-decoration: none; }
+  .cards2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 720px) { .cards2 { grid-template-columns: 1fr; } }
+  .card-outline { display: block; padding: 20px 22px; border: 1px solid #DDE2E8; border-radius: 14px; color: #14181C; background: #fff; }
+  .card-title { font-weight: 600; margin-bottom: 6px; }
+  .card-desc { font-size: 14px; color: #6B7380; }
   header.hero { padding: clamp(56px, 10vw, 110px) clamp(24px, 6vw, 72px) clamp(40px, 7vw, 72px); max-width: 900px; }
   .kicker { margin: 0 0 16px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
   h1.title { font-size: clamp(34px, 5.5vw, 56px); line-height: 1.1; color: #14181C; margin-bottom: 14px; }
@@ -58,6 +63,7 @@
   <div class="links">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
+    <a href="#work">Work</a>
     <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </div>
@@ -144,6 +150,36 @@
       <span class="metric">4 field locations</span>
       <span class="metric">-15% data-entry errors</span>
     </div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Work</h2>
+  <div class="cards2">
+    <a class="card-outline" href="./01_AI_Influencer_Research.pdf" target="_blank" rel="noopener">
+      <div class="card-title">AI influencer research ↗</div>
+      <div class="card-desc">What makes Indian creators succeed, and a plan for an AI-led influencer.</div>
+    </a>
+    <a class="card-outline" href="./02_Creator_Archetype_Analysis.pdf" target="_blank" rel="noopener">
+      <div class="card-title">Creator archetype analysis ↗</div>
+      <div class="card-desc">Brand archetypes across India's top Instagram creators.</div>
+    </a>
+    <a class="card-outline" href="./04_Creator_Earnings_Matrix.pdf" target="_blank" rel="noopener">
+      <div class="card-title">Creator earnings matrix ↗</div>
+      <div class="card-desc">How 50+ Indian creators earn on Instagram — benchmarking source data.</div>
+    </a>
+    <a class="card-outline" href="./UA_ad_pitch_deck_for_pronto.pdf" target="_blank" rel="noopener">
+      <div class="card-title">Pronto user acquisition strategy ↗</div>
+      <div class="card-desc">Competitor ad analysis and new ad concepts.</div>
+    </a>
+    <a class="card-outline" href="./ixigo_tara_strategy.pptx" target="_blank" rel="noopener">
+      <div class="card-title">ixigo x Tara ↗</div>
+      <div class="card-desc">Product audit, gaps and an AI agent plan.</div>
+    </a>
+    <a class="card-outline" href="./03_Emma_Chamberlain_Case_Study.pdf" target="_blank" rel="noopener">
+      <div class="card-title">Emma Chamberlain case study ↗</div>
+      <div class="card-desc">Parasocial relationships and radical authenticity — research methodology.</div>
+    </a>
   </div>
 </section>
 
